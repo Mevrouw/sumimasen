@@ -1,0 +1,217 @@
+/* Tjitske Lohstroh
+ * 
+ * 
+ * 
+ */
+
+/* ==========================================================================
+   body
+   ========================================================================== */
+
+body {
+/*   	background: url(../img/2.jpg)no-repeat top center fixed;
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;*/
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Interstate',sans-serif;
+}
+
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FC5253;
+}
+
+
+
+
+/* ==========================================================================
+   Main Navigation bar
+   ========================================================================== */
+
+#main-nav{
+	position: fixed;
+	z-index: 100;
+   	display: block;
+   	background-color: white;
+   	opacity: 0.95;
+   	width: 100%;
+   	vertical-align: center;
+
+   	
+}
+
+#main-nav ul {
+	float: right;
+	vertical-align: center;
+	padding:20px 20px;
+}
+
+#main-nav ul li {
+	display: inline-block;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	font-family: 'Interstate',sans-serif;
+	vertical-align: center;
+}
+
+#main-nav ul li a{
+	color: black;
+	text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: .9em 1.8em;
+  	vertical-align: center;
+}
+
+#main-nav ul li a:hover{
+	color: #FC5253;
+}
+
+#main-nav ul li a:active {
+    color: #FC5253;
+}
+
+#main-nav ul li a.active{
+	color: #FC5253;
+}
+
+
+/* ==========================================================================
+   Introducition area
+   ========================================================================== */
+
+#intro{
+/*	background-image: url(../img/1blur.jpg);
+		-webkit-background-size: cover;
+	    -moz-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;*/
+	background-position: top;
+	background-color: green;
+	height: auto;
+	width: auto;
+	display: block;
+	padding-top: 20%;
+	padding-bottom: 16%;
+
+}
+
+#sumimasen-script{
+	height: auto;
+	width: 60%;
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* ==========================================================================
+  Projects page
+   ========================================================================== */
+
+#web-dev{
+	display:block;
+	/*padding: 5%;*/
+	text-align: center;
+
+}
+
+.project{
+	display: block;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 5%;
+	padding-top: 140px;
+
+}
+
+.project header {
+	font-family: 'Copernicus Heavy',serif;
+	color: #FC5253;
+	font-size: 30px;
+	letter-spacing: .11em;
+	
+}
+
+.project article {
+	width: 80%;
+	color: #848B91;
+	font-family: 'nimbus-sans',sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: .05em;
+	text-align: left;
+	padding-left: 10%;
+}
+
+.project h3{
+	color: black;
+	letter-spacing: .15em;
+	text-transform: uppercase;
+	font-family: 'Interstate',sans-serif;
+	margin-bottom: 5%;
+	margin-top: 10%;
+}
+
+
+.project .left-side, .project .right-side{
+	display: inline-block;
+	min-width: 300px;
+	text-align: center;
+	vertical-align: top;
+	padding:2%;
+}
+
+.project .left-side{
+	width: 55%;
+	margin-bottom: 50px;
+}
+.project .right-side{
+	width: 30%
+}
+
+.project .left-side img{
+	width: 85%;
+}
+#wijnen{
+	background-color: beige;
+}
+
+.left-side img {
+ -webkit-transition: all s ease; /* Safari and Chrome */
+ -moz-transition: all 1s ease; /* Firefox */
+ -ms-transition: all 1s ease; /* IE 9 */
+ -o-transition: all 1s ease; /* Opera */
+ transition: all 1s ease;
+}
+
+.left-side:hover img {
+ -webkit-transform:scale(1.03); /* Safari and Chrome */
+ -moz-transform:scale(1.03); /* Firefox */
+ -ms-transform:scale(1.03); /* IE 9 */
+ -o-transform:scale(1.03); /* Opera */
+ transform:scale(1.03);
+}
+
+
+
+}
+
+hr{
+	margin: 10%;
+}
